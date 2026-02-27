@@ -1,4 +1,4 @@
-→→---
+---
 title: Quality standard
 description: Learn what a Quality standard is and how to define quality criteria in Issue Quality for Jira.
 ---
@@ -14,19 +14,19 @@ A Quality standard is defined by:
 
 An example of a Quality standard:
 
-> **Name**: Stories must have a parent Epic as soon as they are In Progress  
-> **Condition**: `parent IS NOT EMPTY`  
-> **Scope**: `type = Story and statusCategory != "To Do"`
+> **Name**: Stories must have a parent Epic as soon as they are In Progress
+> **Condition**: parent IS NOT EMPTY
+> **Scope**: type = Story and statusCategory != "To Do"
 
 ## Global or Project standards
 
 A Quality standard can be set on **Global** or **Project** level.
 
-A Quality standard set at the **Global level** by a Jira Administrator applies to all Projects in Jira (but can be limited by setting their 'scope').
+A Quality standard set at the **Global level** by a Jira Administrator applies to all Projects in Jira (but can be limited by setting their scope).
 
 **Project Administrators** can define and manage Quality standards on a Project level. These standards will only apply to the issues within their project.
 
-If you want to set a standard for a set of projects, a Jira Administrator can create the standard globally but use the 'Scope' to limit it to only a set of projects using JQL.
+If you want to set a standard for a set of projects, a Jira Administrator can create the standard globally but use the Scope to limit it to only a set of projects using JQL.
 
 ## Name
 
@@ -38,11 +38,11 @@ The condition is the criteria for an Issue to be considered of good quality. It 
 
 ## Scope
 
-Some rules might not apply to all issues. The 'Scope' allows you to restrict which issues the standard applies to. This is also done using JQL.
+Some rules might not apply to all issues. The Scope allows you to restrict which issues the standard applies to. This is also done using JQL.
 
 For example:
-- Apply only to Bugs: `type = Bug`
-- Exclude sub-task issue types: `type not in subTaskIssueTypes()`
+- Apply only to Bugs: type = Bug
+- Exclude sub-task issue types: type not in subTaskIssueTypes()
 
 ## Documentation
 
