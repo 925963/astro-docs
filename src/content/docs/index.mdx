@@ -1,40 +1,73 @@
 ---
-title: Welcome to Starlight
-description: Get started building your docs site with Starlight.
-template: splash # Remove or comment out this line to display the site sidebar on this page.
+title: Issue Quality for Jira
+description: Smarter Jira, Higher quality, better outcomes. Define your own quality standards, track issue quality and take action.
+template: splash
 hero:
-  tagline: Congrats on setting up a new Starlight project!
+  tagline: Smarter Jira, Higher quality, better outcomes.
   image:
     file: ../../assets/houston.webp
   actions:
-    - text: Example Guide
-      link: /guides/example/
+    - text: Get started
+      link: /astro-docs/getting-started/
       icon: right-arrow
-    - text: Read the Starlight docs
-      link: https://starlight.astro.build
+    - text: View on Atlassian Marketplace
+      link: https://marketplace.atlassian.com/apps/1234567/issue-quality-for-jira
       icon: external
       variant: minimal
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
-## Next steps
+## Features
 
-<CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
-	</Card>
-	<Card title="Change page layout" icon="document">
-		Delete `template: splash` in `src/content/docs/index.mdx` to display a
-		sidebar on this page.
-	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
-	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
-	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
-	</Card>
+<CardGrid>
+  <Card title="Define your standards" icon="pencil">
+    You define what quality means, so you can specify your own criteria for different scopes of work.
+  </Card>
+  <Card title="Automate and search" icon="magnifier">
+    Automate based on quality. Search and report on issues based on Quality scores.
+  </Card>
+  <Card title="Quality statistics and trend" icon="information">
+    Get insight in the development of your data quality over time, per year, per month, per week, per day.
+  </Card>
+  <Card title="Actionable information" icon="approve-check">
+    Give your users actionable insight in how to improve their backlog data quality.
+  </Card>
+</CardGrid>
+
+## Benefits
+
+<CardGrid>
+  <Card title="Real-time tracking" icon="rocket">
+    See your key metrics update instantly, so you can act fast.
+  </Card>
+  <Card title="Global & Project specific" icon="setting">
+    Set rules that apply to all teams, but also let teams define additional standards.
+  </Card>
+  <Card title="Actionable Insights" icon="approve-check-circle">
+    Each work item shows which standards are met and which are not.
+  </Card>
+  <Card title="Secure data" icon="shield">
+    Data will never leave the Atlassian environment; our Apps run 100% on Atlassian!
+  </Card>
+  <Card title="Search and report" icon="magnifier">
+    Search across Jira for items with quality standard deviations and use these filters to create dashboards.
+  </Card>
+  <Card title="Simple to use" icon="open-book">
+    Use what you already know: write JQL to define your quality standards.
+  </Card>
+</CardGrid>
+
+## How it works
+
+<CardGrid>
+  <Card title="1. Setup your standards" icon="add-document">
+    In minutes you create the quality standards that matter to your business. Or start from common templates.
+  </Card>
+  <Card title="2. Track issue quality" icon="list-format">
+    Users will improve their backlog data quality. And you get insight in quality statistics; per project and throughout your organisation.
+  </Card>
+  <Card title="3. Turn Insights Into Action" icon="star">
+    Get clarity per item on where quality can be improved. Or automatically take action with automations.
+  </Card>
 </CardGrid>
